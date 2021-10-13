@@ -26,6 +26,10 @@ internal fun CircleMarkers(
         Marker(
             angle = i * (360 / nbMarker),
             active = i < seconds * (nbMarker / totalSeconds)
+
+
+
+        
         )
     }
 }
