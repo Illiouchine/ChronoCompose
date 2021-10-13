@@ -22,6 +22,7 @@ internal fun CircleMarkers(
     seconds: Int
 ){
     for (i in 0 until nbMarker) {
+        print("toto")
         Marker(
             angle = i * (360 / nbMarker),
             active = i < seconds * (nbMarker / totalSeconds)
